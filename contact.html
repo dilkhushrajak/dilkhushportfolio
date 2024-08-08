@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Existing styles */
+        .c-img {
+            height: 60px;
+            width: 50px;
+            border-radius: 30%;
+            padding-left: 5px;
+            gap: 10px;
+    }
+        .c-con {
+            font-size: 2.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .c-head {
+            align-items: center;
+        /* text-align: center; */
+        border: 5px solid ;
+        border-color: rgb(243, 255, 10);
+        margin: 10px;
+        padding: 20px;
+        height: 550px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+       
+    .form-h2 {
+            margin-bottom: 20px;
+            color: #a4c803;
+        }
+        .c-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .c-form label {
+            margin-bottom: 8px;
+            color: #fefefe;
+        }
+        .c-form .input {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #111311;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .c-form .input:focus {
+            border-color: #6c63ff;
+            outline: none;
+            box-shadow: 0 0 8px rgba(108, 99, 255, 0.2);
+        }
+        .c-form button {
+            padding: 10px 15px;
+            background-color: #6c63ff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .c-form button:hover {
+            background-color: #574bfa;
+        }
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+       
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .c-right {
+            border: 5px solid yellow;
+            height: 550px;
+            width: 600px;
+            margin: 10px;
+            padding: 20px;
+        }
+        .c-form{
+            padding: 10px;
+            gap: 10px;
+            margin: 5px;
+        }
+        @media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        border-width: 4px;
+    }
+    .c-img {
+        height: 50px;
+        width: 50px;
+    }
+    .a-link {
+        font-size: 1rem;
+    }
+    #head4{
+        font-size: 11px;
+       
+    }
+}
+
+
+
+/* Media query for screens less than 200px */
+/* @media (max-width: 250px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        border-width: 2px;
+    }
+    .c-img {
+        height: 20px;
+        width: 150px;
+        
+    }
+    .a-link {
+        font-size: 0.5rem;
+        margin-left: 10px;
+    }#head4{
+        /* font-size: 2px; */
+        /* text-align: left; */
+  
+ 
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="left logoa">Dilkhush's Portfolio
+            <img id="logo" src="aslogo.jpg" alt="Portfolio Logo">
+            
+          </div>
+          <div class="right searchable">
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="about.html" target="_blank">About</a></li>
+              <li><a href="service.html" target="_blank">Services</a></li>
+              <li><a href="project.html" target="_blank">Projects</a></li>
+              <li><a href="contact.html" target="_blank">Contact Me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <div class="container">
+            <div class="c-head  searchable">
+             <h2><u>Contact Me </u></h2>
+              <div id="head4"> <h4>You can visit directly by clicking the respective details</h4></div>
+                <div class="section">
+                    <div class="c-con"> 
+                        <img class="c-img" src="/coder/contact.png" alt="WhatsApp Icon">
+                        <a class="a-link" href="" target="_blank">What's app</a>
+                    </div>
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/youtube png.jpeg" alt="YouTube Icon">
+                        <a class="a-link" href="https://youtube.com/@okztech7704?si=VXj5lsh7I_cHX14S" target="_blank">YouTube</a> 
+                    </div>
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/instra.jpeg" alt="Instagram Icon">
+                        <a class="a-link" href="https://www.instagram.com/rajak.23dilkhush?igsh=MWQwaXZqNjgxaGM3ZA==" target="_blank">Instagram</a> 
+                    </div>
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/fiverr.png" alt="Fiverr Icon">
+                        <a class="a-link" href="https://www.fiverr.com/dilkhush_121?up_rollout=true" target="_blank">Fiverr</a> 
+                    </div>
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/facebook.png" alt="Facebook Icon">
+                        <a class="a-link" href="https://www.facebook.com/profile.php?id=100007473285875" target="_blank">Facebook</a>
+                    </div> 
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/email.png" alt="Email Icon">
+                        <a class="a-link" href="mailto:dilkhushsaphi@gmail.com" target="_blank">dilkhushsaphi@gmail.com</a>
+                    </div> 
+                    <div class="c-con">
+                        <img class="c-img" src="/coder/phone.png" alt="Phone Icon"><p class="a-link">+9779807603315</p>
+                    </div>
+                </div>
+            </div>
+            <div class="c-right  searchable">
+                <form action="" class="c-form">
+                    <h1 class="form-h2">Appointment:</h1>
+                    <label for="name">Name:</label>
+                    <input class="input" type="text" id="name" name="name">
+                    
+                    <label for="email">Email:</label>
+                    <input class="input" type="email" id="email" name="email">
+                    
+                    <label for="mobile">Mobile:</label>
+                    <input class="input" type="number" id="mobile" name="mobile">
+                    
+                    <label for="massage">Message:</label>
+                    <input class="input" type="text" id="massage" name="massage">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+      </main>
+      <script src="script.js"></script>
+</body>
+</html>
